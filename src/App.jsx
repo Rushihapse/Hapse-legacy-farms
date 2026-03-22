@@ -2,11 +2,11 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/home';
-import OurStory from "./pages/ourstory";      // Fixed: changed to lowercase
-import OurLegacy from './pages/ourLegacy';    // Check if this should be 'ourlegacy'
-import OurHarvest from './pages/ourHarvest';  // Check if this should be 'ourharvest'
-import Contact from './pages/Contact';
-import Consultancy from './pages/consultancy'; // Fixed: changed to lowercase
+import OurStory from "./pages/ourstory";      // Matches ourstory.jsx
+import OurLegacy from './pages/ourLegacy';    // Matches ourLegacy.jsx
+import OurHarvest from './pages/ourHarvest';  // Matches ourHarvest.jsx
+import Contact from './pages/Contact';        // Matches Contact.jsx
+import Consultancy from './pages/consultancy'; // Matches consultancy.jsx
 
 function App() {
   return (
@@ -20,8 +20,6 @@ function App() {
             <Route path="/our-legacy" element={<OurLegacy />} />
             <Route path="/our-harvest" element={<OurHarvest />} />
             <Route path="/contact" element={<Contact />} />
-            
-            {/* 2. ADD THIS NEW ROUTE: */}
             <Route path="/consultancy" element={<Consultancy />} /> 
           </Routes>
         </main>

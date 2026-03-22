@@ -1,0 +1,16 @@
+{
+  "navbar": { 
+    "home": "Home", 
+    "story": "Our Story", 
+    "harvest": "Our Harvest", 
+    "legacy": "⭐ Our Legacy", 
+    "contact": "Contact" 
+  },
+  "home": { 
+    "heroTitle1": "Rooted in Tradition,", 
+    "heroTitle2": "Growing with Trust"
+  },
+  "legacy": {
+    "founder": "OUR FOUNDER"
+  }
+}

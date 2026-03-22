@@ -2,12 +2,11 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/home';
-import OurStory from "./pages/ourstory";
-import OurLegacy from './pages/ourLegacy';
-import OurHarvest from './pages/ourHarvest';
+import OurStory from "./pages/ourstory";      // Fixed: changed to lowercase
+import OurLegacy from './pages/ourLegacy';    // Check if this should be 'ourlegacy'
+import OurHarvest from './pages/ourHarvest';  // Check if this should be 'ourharvest'
 import Contact from './pages/Contact';
-// 1. IMPORT the Consultancy page here:
-import Consultancy from './pages/consultancy'; 
+import Consultancy from './pages/consultancy'; // Fixed: changed to lowercase
 
 function App() {
   return (

@@ -1,12 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Home from './pages/home';
-import OurStory from "./pages/ourstory";      // Matches ourstory.jsx
-import OurLegacy from './pages/ourLegacy';    // Matches ourLegacy.jsx
-import OurHarvest from './pages/ourHarvest';  // Matches ourHarvest.jsx
-import Contact from './pages/Contact';        // Matches Contact.jsx
-import Consultancy from './pages/consultancy'; // Matches consultancy.jsx
+import Home from './pages/Home';
+import OurStory from "./pages/ourstory";      // Fixed: Matches ourstory.jsx
+import OurLegacy from './pages/OurLegacy';    
+import OurHarvest from './pages/OurHarvest';  
+import Contact from './pages/Contact';        
+import Consultancy from './pages/Consultancy'; 
 
 function App() {
   return (

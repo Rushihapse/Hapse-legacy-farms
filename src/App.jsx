@@ -2,12 +2,12 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
-import OurStory from './pages/OurStory'; 
-import OurLegacy from './pages/OurLegacy';
-import OurHarvest from './pages/OurHarvest';
+import OurStory from './pages/ourStory'; 
+import OurLegacy from './pages/ourLegacy';
+import OurHarvest from './pages/ourHarvest';
 import Contact from './pages/Contact';
 // 1. IMPORT the Consultancy page here:
-import Consultancy from './pages/Consultancy'; 
+import Consultancy from './pages/consultancy'; 
 
 function App() {
   return (

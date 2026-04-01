@@ -250,7 +250,7 @@ const Contact = () => {
           className="mt-24 w-full h-[550px] rounded-[3.5rem] overflow-hidden shadow-2xl border-[12px] border-white relative group"
         >
           <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2881.631473997163!2d75.67874596591714!3d18.35641251559467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc4fd00773edd49%3A0x4ba77c564ff0ba19!2sHapse%20Farms!5e1!3m2!1sen!2sin!4v1774177836822!5m2!1sen!2sin" 
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1763.5971094273737!2d75.68493793128032!3d18.360180325151592!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc4fd000874cbbf%3A0xe5fa5fbf218b9a5!2sHapse%20Farms!5e1!3m2!1sen!2sin!4v1775064861037!5m2!1sen!2sin" 
             width="100%" 
             height="100%" 
             style={{ border: 0 }} 
